@@ -41,4 +41,15 @@ describe "StaticPages" do
 
   end
 
+  describe "Contact" do
+  	it "should have the contect 'Contact'" do
+  		visit '/static_pages/contact'
+  		expect(page).to have_content('Contact')
+  end
+
+    it "should have the title 'Title'" do
+    	visit '/static_pages/contact'
+    	expect(page).to have_title("Ruby on Rails Tutorial Sample App | Contact")
+    end
+end
 end
