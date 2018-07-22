@@ -54,3 +54,4 @@ group :test do
   gem 'test-unit'
 end
 gem 'minitest'
+gem 'bootstrap-sass', '2.3.2.0'
