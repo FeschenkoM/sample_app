@@ -55,3 +55,4 @@ group :test do
 end
 gem 'minitest'
 gem 'bootstrap-sass', '2.3.2.0'
+gem 'bcrypt-ruby', '3.1.5', :require => 'bcrypt'
