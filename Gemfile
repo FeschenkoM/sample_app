@@ -51,6 +51,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :test do
+  gem 'factory_girl_rails', '4.2.1'
   gem 'test-unit'
 end
 gem 'minitest'
